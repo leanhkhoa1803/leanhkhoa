@@ -1,0 +1,768 @@
+*{
+    margin:0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+h4{
+    font-weight: 700;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    
+}
+.dropdown:hover #navbarDropdown{
+    color: rgb(42, 221, 253);
+}
+.dropdown:hover .dropdown-content{
+    display: block;    
+    transition: 1;
+}
+.TB{
+    background-color: whitesmoke;
+    border-top: 2px solid rgb(42, 221, 253);
+}
+
+table{
+    width: 650px;
+    height: 200px;
+}
+th{
+    padding: 0.25rem 1.5rem;
+    color:rgb(42, 221, 253);
+    text-align: left;
+    
+}
+@media (max-width:1140px)
+{
+    table{
+        width: 550px;
+        height: 150px;
+    }
+}
+@media (max-width:840px)
+{
+    .dropdown-content{
+        padding-top: 1rem;
+    }
+    table{
+        width: 450px;
+        height: 150px;
+    }
+}
+@media (max-width:928px)
+{
+    .nav-item a{
+        margin-right: 5px;
+        font-size: 97%;
+    }
+}
+@media (max-width:768px)
+{
+    .dropdown-content{
+        margin-top: -50px;
+    }
+    
+}
+/*==============CAROUSEL==========================*/
+.carousel-inner img{
+    width: 100%;
+}
+.carousel-caption{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.carousel-caption tr th{
+    text-align: left;
+}
+p{
+    color: #9c9a9c;
+    font-size: 90%;
+}
+.carousel-caption h1{
+    color: #393839;
+    font-size: 300%;
+    font-weight: 700;
+}
+.carousel-caption button{
+    margin-top: 35%;
+    margin-left: -81%;
+}
+@media (max-width:1240px)
+{
+    .carousel-caption{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+    .carousel-caption tr th{
+        text-align: left;
+    }
+    p{
+        color: #9c9a9c;
+        font-size: 80%;
+    }
+    .carousel-caption h1{
+        color: #393839;
+        font-size: 200%;
+        font-weight: 700;
+    }
+    .carousel-caption button{
+        margin-top: 33%;
+        margin-left: -78%;
+    }
+    .icon_arrival_shop_cart {
+        width: 100px ;
+        height: 42px ;
+        line-height: 42px;
+    }
+    .icon_arrival_shop{
+        height: 42px !important;
+        width: 45px !important;
+        padding-top: 4px !important;
+    }
+}
+
+@media only screen and (max-width:1199px)
+{
+    .icon_arrival_shop_cart {
+        width: 100px !important;
+        height: 42px !important;
+        line-height: 42px !important;
+    }
+    .icon_arrival_shop{
+        height: 42px !important;
+        width: 45px !important;
+        padding-top: 4px !important;
+    }
+}
+@media (max-width:882px)
+{
+    .carousel-caption{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+    .carousel-caption tr th{
+        text-align: left;
+    }
+    p{
+        color: #9c9a9c;
+        font-size: 70%;
+    }
+    .carousel-caption h1{
+        color: #393839;
+        font-size: 200%;
+        font-weight: 600;
+    }
+    .carousel-caption button{
+        margin-top: 42%;
+        margin-left: -70%;
+    }
+    .text_discount p{
+        font-size: 100%;
+    }
+    .icon_arrival_shop_cart {
+        width: 250px !important;
+        height: 42px !important;
+        line-height: 42px !important;
+    }
+    .icon_arrival_shop{
+        height: 42px !important;
+        width: 45px !important;
+        padding-top: 4px !important;
+    }
+}
+@media (max-width:746px){
+    .carousel-caption{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+    .carousel-caption tr th{
+        text-align: left;
+    }
+    p{
+        color: #9c9a9c;
+        font-size: 70%;
+    }
+    .carousel-caption h1{
+        color: #393839;
+        font-size: 150%;
+        font-weight: 700;
+    }
+    .carousel-caption button{
+        margin-top: 41%;
+        margin-left: -64%;
+    }
+    
+}
+@media (max-width:678px)
+{
+    .carousel-caption{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+    .carousel-caption tr th{
+        text-align: left;
+    }
+    p{
+        color: #9c9a9c;
+        font-size: 60%;
+    }
+    .carousel-caption h1{
+        color: #393839;
+        font-size: 150%;
+        font-weight: 700;
+    }
+    .carousel-caption button{
+        margin-top: 42%;
+        margin-left: -60%;
+        font-size: 1rem;
+    }
+    
+}
+@media (max-width:632px)
+{
+    .carousel-caption{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+    .carousel-caption tr th{
+        text-align: left;
+    }
+    p{
+        color: #9c9a9c;
+        font-size: 50%;
+    }
+    .carousel-caption h1{
+        color: #393839;
+        font-size: 130%;
+        font-weight: 700;
+    }
+    .carousel-caption button{
+        margin-top: 45%;
+        margin-left: -70%;
+        font-size: 0.5rem;
+    }
+    .image_arrival_left{
+        width: 170px;
+        height: 590px;
+        background-color: #9c9a9c;
+        position: relative;
+        margin-left: 15px;
+    }
+    .text_discount{
+        width: 120px;
+        height: 70px;
+        position: absolute;
+        background-color: #9c9a9c;
+        text-align: center;
+        left: 15px;
+        border: 1px solid white;
+        top: 25px;
+        color: white;
+        line-height: 30px;
+        font-size: larger;
+        opacity: 2;
+        
+    }
+}
+@media (max-width:558px)
+{
+    .carousel-caption{
+        position: absolute;
+        top: 5%;
+        left: 10%;
+    }
+    .carousel-caption tr th{
+        text-align: left;
+    }
+    p{
+        color: #9c9a9c;
+        font-size: 45%;
+    }
+    .carousel-caption h1{
+        color: #393839;
+        font-size: 100%;
+        font-weight: 700;
+    }
+    .carousel-caption button{
+        margin-top: 48%;
+        margin-left: -68%;
+        font-size: 0.5rem;
+    }
+    
+}
+/*==============FEATURED PRODUCT====================*/
+.title_line {
+    position: relative;
+    width: 100%;
+    letter-spacing: 1px;
+    color: #393839;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #d8d8d8;
+}
+.title_line>h4 {
+    margin-bottom: 1.5rem !important;
+}
+.title_line::after {
+    content: "";
+    position: absolute;
+    background-image: linear-gradient(to right,rgb(42, 221, 253), rgb(42, 221, 253));
+    top: 50px;
+    left: 0;
+    width: 205px;
+    height: 3px;
+}
+.icon_title{
+    font-size: xx-large;
+    float: right;
+    border: 1px solid #bdbabd;
+    width: 34px;
+    height: 34px;
+    text-align: center;
+    color: lightgray !important;
+}
+
+
+.image_product{
+    width: 250px;
+    height: 300px;
+    background: #9c9a9c;
+    margin-left: 5px;
+    margin-right: 5px;
+    overflow: hidden;
+    width: 100%;
+}
+.icon_hover{
+    width: 34px ;
+    height: 34px;
+    background-color: black;
+    color: white !important;
+    text-align: center;
+    line-height: 34px ;
+    margin-top: 10px;
+    
+}
+.much_icon{
+    float: right;
+    opacity: 0;
+}
+.image_product:hover .much_icon{
+    opacity: 1;
+    transition: 1s ease;
+    
+}
+.image_product:hover{
+    background-color: lightgray;
+}
+
+.image_product h2{
+    text-align: center;
+    line-height: 300px;
+    position: relative;
+    left:6%;
+    cursor: pointer;
+}
+.certificate {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #bdbabd;
+    border-radius: 50%;
+    padding: 10px;
+    text-transform: uppercase;
+    position: absolute;
+    color: #636563;
+    background-color: #efefef;
+    
+}
+.certificate_blue {
+    width: 45px;
+    height: 45px;
+    border: 2px solid rgb(42, 221, 253);
+    border-radius: 50%;
+    padding: 10px;
+    text-transform: uppercase;
+    position: absolute;
+    color: #636563;
+    background-color: #efefef;
+    
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-45deg);
+    top: 15px;
+    left: 35px;
+}
+.content_product{
+    padding-left: 6px;
+}
+.content_product p{
+    font-size: 18px;
+}
+/* ==========================STAR ICON=======================*/
+.star_icon{
+    float: right;
+}
+.fas,
+.fa-star{
+    color:rgb(42, 221, 253) ;
+}
+/*==========================END STAR=========================*/
+
+/*==========================NEW ARRiVAL======================*/
+/*=======================IMAGE LEFT========================*/
+.row2{
+    margin-top: -30px;
+}
+.image_arrival_left{
+    width: 170px;
+    height: 590px;
+    background-color: #9c9a9c;
+    position: relative;
+    width: 100%;
+}
+.image_arrival_left h4{
+    text-align: center;
+    line-height: 590px;
+    cursor: pointer;
+}
+.image_arrival_left:hover{
+    background-color: #bdbabd;
+    transition: 1s ease;
+}
+.text_discount{
+    width: 120px;
+    height: 70px;
+    position: absolute;
+    background-color: #9c9a9c;
+    text-align: center;
+    left: 25px;
+    border: 1px solid white;
+    top: 25px;
+    color: white;
+    line-height: 30px;
+    font-size: larger;
+    opacity: 2;
+    width: 73%;
+}
+.text_discount p{
+    color: white;
+}
+.btn_shop{
+    position: absolute;
+    bottom: 25px;
+    width: 120px;
+    height: 35px;
+    left: 25px;
+    border: 1px solid white;
+    background-color: #9c9a9c;
+    color: white;
+}
+/*========================END IMAGE LEFT===================*/
+/*=========================IMAGE MID========================*/
+.image_arrival_mid{
+    width: 350px;
+    height: 590px;
+    background-color: #9c9a9c;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.image_arrival_mid h1{
+    text-align: center;
+    line-height: 590px;
+    opacity: 1;
+    cursor: pointer;
+}
+.text_cost{
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+}
+.text_new{
+    left: 18px;
+    opacity: 1;
+}
+.text_arrival_mid,.cost{
+    height: 36px;
+    line-height: 36px;
+    background-color: rgb(42, 221, 253);
+}
+.text_arrival_mid{
+    width: 150px;
+}
+.cost{
+    width: 92px;
+    margin-top: 2px;
+}
+.text_arrival_mid p,.cost p{
+    color: white;
+    font-size: 18px;
+}
+.sale_mid{
+    width: 100px;
+    text-align: center;
+    height: 59px;
+    line-height: 80px;
+    background-color: black;
+    color: white;
+    transform: rotate(-45deg);
+    display: flex;
+    justify-content: center;
+    left: -40px;
+    top: -14px;
+    display: block;
+    position: absolute;
+    opacity: 0;
+}
+.sale_mid_2{
+    width: 100px;
+    text-align: center;
+    height: 59px;
+    line-height: 80px;
+    background-color: black;
+    color: white;
+    transform: rotate(-45deg);
+    display: flex;
+    justify-content: center;
+    left: -40px;
+    top: -14px;
+    display: block;
+    position: absolute;
+    opacity: 0;
+}
+.icon_arrival_mid{
+    position: absolute;
+    text-align: center;
+    line-height: 590px;
+    opacity: 0;
+}
+.icon_arrival_shop_cart{
+    width: 201px !important;
+    height: 42px !important;
+    line-height: 42px !important;
+}
+.icon_arrival_shop{
+    height: 42px !important;
+    width: 45px !important;
+    padding-top: 4px !important;
+}
+.image_arrival_mid:hover{
+    background-color: #bdbabd;
+    transition: 1s ease;
+}
+.image_arrival_mid:hover .sale_mid{
+    opacity: 1;
+}
+.image_arrival_mid:hover .icon_arrival_mid{
+    opacity: 1;
+}
+.image_arrival_mid:hover .text_new{
+    opacity: 0;
+}
+.image_arrival_mid:hover h1{
+    opacity: 0;
+}
+/*=========================END MID==========================*/
+/*=======================IMAGE RIGHT=======================*/
+.image_right{
+    width: 255px;
+    height: 280px;
+    background-color: #9c9a9c;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.image_right h2{
+    text-align: center;
+    line-height: 280px;
+    cursor: pointer;
+}
+.image_right:hover{
+    background-color: #bdbabd;
+    transition: 1s ease;
+}
+.image_right:hover .sale_mid{
+    opacity: 1;
+}
+.image_right:hover .text_new{
+    opacity: 0;
+}
+.image_right:hover .sale_mid_2{
+    background-color: rgb(42, 221, 253);
+}
+
+/*======================END IMAGE RIGHT====================*/
+/*==========================END ARRiVAL======================*/
+/*=========================LAST FROM BLOGS==================*/
+.line{
+    width: 76px;
+    height: 5px;
+    background-color: rgb(42, 221, 253);
+    margin-top: -20px;
+}
+.blog{
+    width: 470px;
+    height: 400px;
+    background-color: #9c9a9c;
+    position: relative;
+    cursor: pointer;
+}
+.blog b{
+    font-size: 60px;
+    line-height: 400px;
+    margin-left: 25%;
+
+}
+.title_blog{
+    position: absolute;
+    width: 100px;
+    top: 28%;
+    right: -50px;;
+}
+.title_icon_blog{
+    background-color: rgb(42, 221, 253);
+    font-size: x-large;
+    color: white !important;
+    height: 70px;
+    text-align: center;
+}
+.title_icon_blog p{
+    color: white;
+    font-weight: 700;
+}
+.icon_blog{
+    position: relative;
+    top: 22px;
+}
+.number{
+    position: absolute;
+    right: 14px;
+    top: 80px;
+    font-weight: 400 !important;
+}
+.number_42{
+    right: 20px;
+    position: absolute;
+    top: 166px;
+    font-size: large;
+    font-weight: 400 !important;
+}
+.icon_blog_42{
+    position: relative;
+    top: 26px;
+}
+.text_title{
+    font-weight: 400;
+    font-size: 120%;
+}
+.lorem{
+    position: absolute;
+    width: 114%;
+    font-size: 100% !important;
+}
+.icon_link{
+    position: absolute;
+    line-height: 400px;
+    font-size: xx-large;
+    left: 47%;
+    opacity: 0;
+}
+.icon_link_blog{
+    color: white !important;
+}
+.blog:hover{
+    background-color: #393839;
+    transition: all 1s;
+}
+.blog:hover .icon_link{
+    opacity: 1;
+}
+/*=========================END LAST FROM BLOGS==================*/
+
+/*========================FOOTER=============================*/
+.line_footer{
+    width: 40px;
+    height: 3px;
+    background-color: white;
+    
+}
+.col_footer{
+    position: relative;
+    float: left;
+    width: 100%;
+}
+.col_footer span{
+    font-size: 27px;
+    color: white;
+}
+.icon_footer{
+    float: left;
+    margin-right: 33px;
+    margin-left: 5px;
+}
+.icon_i_footer{
+    font-size: 220%;
+    padding-top: 13px;
+    color: white;
+}
+.text_footer{
+    font-size: 123%;
+    color: white !important;
+}
+.border_icon{
+    width: 19px;
+    height: 19px;
+    line-height: 14px;
+    border-radius: 25px;
+    border: 1px solid white;
+    text-align: center;
+    margin-top: 8px;
+}
+.icon_right{
+    color: white;
+    font-size: small;
+}
+.instagram{
+    width: 80px;
+    height: 80px;
+    background-color: #9c9a9c;
+    text-align: center;
+}
+.instagram h6{
+    line-height: 80px;
+}
+.newslatter p{
+    font-size: 112%;
+    color: white
+}
+.newslatter input{
+    border: 1px solid white;
+    background-color: black;
+    height: 35px;
+    width: 300px;
+    color: white !important;
+}
+.newslatter button{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 155px;
+}
+/*========================END FOOTER=============================*/
